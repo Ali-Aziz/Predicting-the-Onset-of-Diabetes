@@ -1,1 +1,4 @@
 # Predicting-the-Onset-of-Diabetes
+
+Abstract: 
+	Being able to predict Type II diabetes in advance can allow at-risk individuals to take preventive measures. For this study predictive models were built using the Pima Indian females population. A key challenge with this data set was dealing with a large amount of missing values. Multiple imputation and EM imputation were utilized to better understand the data. Using a dataset with EM imputation, 5 different classification models were built: a logistic regression model, a classification tree, a general additive model, a neural network and an adaptive boosting model. Based on both in-sample and out-of-sample AUCs and Misclassification Rates, the GAM model performed the best as it had an AUC of 0.88 and MR equal to 0.19 on the testing data. However, for more conclusive results further testing such as cross-validation is necessary. 
